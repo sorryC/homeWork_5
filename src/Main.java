@@ -1,13 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int i = 0;
-        while (i < 10) {
-            System.out.println(++i + " ");
-        }
-        System.out.println();
-
-        for (; i > 0; --i) {
-            System.out.println(i + " ");
+        int i = 5;
+        for (int b = i; b < 31; b += 7) {
+            System.out.println("Сегодня пятница " + b + " -e число" + " нужен отчет!" );
         }
     }
 }
